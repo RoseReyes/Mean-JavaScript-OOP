@@ -31,6 +31,7 @@ function Ninja(name)
 if( blueNinja instanceof Ninja)
 {
     var blueNinja = new Ninja("Goemon");
+    redNinja.kick(blueNinja);
 }
 else if(redNinja instanceof Ninja)
 {
